@@ -1,0 +1,15 @@
+.div{
+    display: flex;   
+    height: 50px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 470px) {
+    .div{
+        display: flex;
+        flex-wrap: wrap;
+        height: 20px;
+    }
+   
+}
